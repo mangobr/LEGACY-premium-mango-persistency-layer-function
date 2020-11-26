@@ -1,4 +1,8 @@
 const R = require("ramda")
+const MangoDBConnect = require("./database/mangoodbConnect")
+const {IncomingS3EventNotFound, RekoNotFoundExcpetion} = require("./exceptions/payloadExceptions")
+
+MangoDBConnect()
 
 const mangoDBOperationsPremium = async (event) => {
   let assignedFoods = [];
@@ -26,7 +30,7 @@ const mangoDBOperationsPremium = async (event) => {
     labelList.map(async label => {
         const customLabelAccuracy = R.pathOr(null, ["Confidence"], label)
         if(customLabelAccuracy > 40){
-            const foodDBResponse = 
+            // const foodDBResponse = 
         }
     })
   } catch(error){
