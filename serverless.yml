@@ -17,6 +17,7 @@ package:
     - coverage/**
     - .env
     - .serverless/**
+    - index.js
   excludeDevDependencies: true
   individually: true
 

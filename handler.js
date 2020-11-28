@@ -13,7 +13,7 @@ const createConsolidatedScan = require("./factory/foodAggregateRecognitionFactor
 
 MangoDBConnect();
 
-const mangoDBOperationsPremium = async (event) => {
+module.exports.mangoDBOperationsPremium = async (event) => {
   try {
     let assignedNutritionalFactsList = [];
     const s3EventObject = R.pathOr(
@@ -69,5 +69,3 @@ const mangoDBOperationsPremium = async (event) => {
     console.log(error);
   }
 };
-
-module.exports = mangoDBOperationsPremium;
