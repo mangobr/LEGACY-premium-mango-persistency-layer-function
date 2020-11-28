@@ -1,0 +1,28 @@
+service: mangoodb-function-premium
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: ${env:STAGE}
+  region: us-east-1
+  memorySize: 128
+
+package:
+  exclude:
+    - .gitignore
+    - bitbucket-pipelines.yml
+    - serverless.yml
+    - tests/**
+    - coverage/**
+    - .env
+    - .serverless/**
+    - index.js
+  excludeDevDependencies: true
+  individually: true
+
+functions:
+  mangoDBOperationsPremium:
+    handler: handler.mangoDBOperationsPremium
+    environment:
+      MANGODB_CONNECT: ${env:MANGODB_CONNECT}

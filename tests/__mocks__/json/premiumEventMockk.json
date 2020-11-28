@@ -1,0 +1,390 @@
+{
+    "version": "1.0",
+    "timestamp": "2020-10-09T11:14:29.146Z",
+    "requestContext": {
+        "requestId": "72c2d815-e1ce-4904-9b88-84a10f731106",
+        "functionArn": "arn:aws:lambda:us-east-1:018413147376:function:test-Event:$LATEST",
+        "condition": "Success",
+        "approximateInvokeCount": 1
+    },
+    "requestPayload": {
+        "version": "1.0",
+        "timestamp": "2020-10-09T11:14:28.612Z",
+        "requestContext": {
+            "requestId": "e7d484a4-4dc6-4209-a1fd-3167a43bacf1",
+            "functionArn": "arn:aws:lambda:us-east-1:018413147376:function:s3-Reko:$LATEST",
+            "condition": "Success",
+            "approximateInvokeCount": 2
+        },
+        "requestPayload": {
+            "Records": [
+                {
+                    "eventVersion": "2.1",
+                    "eventSource": "aws:s3",
+                    "awsRegion": "us-east-1",
+                    "eventTime": "2020-10-09T11:11:21.910Z",
+                    "eventName": "ObjectCreated:Put",
+                    "userIdentity": {
+                        "principalId": "AZVO6PZ9OFROG"
+                    },
+                    "requestParameters": {
+                        "sourceIPAddress": "187.67.58.53"
+                    },
+                    "responseElements": {
+                        "x-amz-request-id": "CBA0B8E225441585",
+                        "x-amz-id-2": "Y+7rPd9Gw0YYq52QnNQN8EnC20bdv+1bdtL41MYPw7+qoyYuscREOabsfzUJgBVmUJ9tocJ2ZKHQyoD/ZyHzQY/65e8Eh4Bz1hqPLuvwlGg="
+                    },
+                    "s3": {
+                        "s3SchemaVersion": "1.0",
+                        "configurationId": "acb509ee-f8ca-4ca8-b751-3e7a6da4f13b",
+                        "bucket": {
+                            "name": "s3flutteruploadtest",
+                            "ownerIdentity": {
+                                "principalId": "AZVO6PZ9OFROG"
+                            },
+                            "arn": "arn:aws:s3:::s3flutteruploadtest"
+                        },
+                        "object": {
+                            "key": "uploads/test/moida-val-11.jpeg",
+                            "size": 147898,
+                            "eTag": "03abfed98e60feeb582dfc7db35260af",
+                            "sequencer": "005F80455EAC428C2A"
+                        }
+                    }
+                }
+            ]
+        },
+        "responseContext": {
+            "statusCode": 200,
+            "executedVersion": "$LATEST"
+        },
+        "responsePayload": {
+            "CustomLabels": [
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.30340999364852905,
+                            "Top": 0.24854999780654907,
+                            "Left": 0.1737699955701828,
+                            "Height": 0.2793000042438507
+                        }
+                    },
+                    "Confidence": 43.9900016784668,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.29368001222610474,
+                            "Top": 0.3614499866962433,
+                            "Left": 0.10565000027418137,
+                            "Height": 0.2896200120449066
+                        }
+                    },
+                    "Confidence": 30.788999557495117,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.07452999800443649,
+                            "Top": 0.35822999477386475,
+                            "Left": 0.26892998814582825,
+                            "Height": 0.1145000010728836
+                        }
+                    },
+                    "Confidence": 4.6529998779296875,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.14972999691963196,
+                            "Top": 0.4477100074291229,
+                            "Left": 0.14699000120162964,
+                            "Height": 0.09853000193834305
+                        }
+                    },
+                    "Confidence": 3.7069997787475586,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.8077899813652039,
+                            "Top": 0.18278999626636505,
+                            "Left": 0.13350999355316162,
+                            "Height": 0.6727499961853027
+                        }
+                    },
+                    "Confidence": 2.6389999389648438,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.13323000073432922,
+                            "Top": 0.182219997048378,
+                            "Left": 0.457830011844635,
+                            "Height": 0.07311999797821045
+                        }
+                    },
+                    "Confidence": 1.3930000066757202,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.30184000730514526,
+                            "Top": 0.8924199938774109,
+                            "Left": 0.0427200011909008,
+                            "Height": 0.07119999825954437
+                        }
+                    },
+                    "Confidence": 1.2740000486373901,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.14050999283790588,
+                            "Top": 0.4548400044441223,
+                            "Left": 0.28426000475883484,
+                            "Height": 0.10785000026226044
+                        }
+                    },
+                    "Confidence": 1.2070000171661377,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.05567000061273575,
+                            "Top": 0.029670000076293945,
+                            "Left": 0.049139998853206635,
+                            "Height": 0.19191999733448029
+                        }
+                    },
+                    "Confidence": 0.8240000605583191,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.9698200225830078,
+                            "Top": 0.0,
+                            "Left": 0.028929999098181725,
+                            "Height": 0.22398999333381653
+                        }
+                    },
+                    "Confidence": 0.6579999923706055,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                }
+            ],
+            "ResponseMetadata": {
+                "RetryAttempts": 0,
+                "HTTPStatusCode": 200,
+                "RequestId": "95878a50-3574-4f66-8709-a2a097315e93",
+                "HTTPHeaders": {
+                    "date": "Fri, 09 Oct 2020 11:14:27 GMT",
+                    "x-amzn-requestid": "95878a50-3574-4f66-8709-a2a097315e93",
+                    "content-length": "2207",
+                    "content-type": "application/x-amz-json-1.1",
+                    "connection": "keep-alive"
+                }
+            }
+        }
+    },
+    "responseContext": {
+        "statusCode": 200,
+        "executedVersion": "$LATEST"
+    },
+    "responsePayload": {
+        "version": "1.0",
+        "timestamp": "2020-10-09T11:14:28.612Z",
+        "requestContext": {
+            "requestId": "e7d484a4-4dc6-4209-a1fd-3167a43bacf1",
+            "functionArn": "arn:aws:lambda:us-east-1:018413147376:function:s3-Reko:$LATEST",
+            "condition": "Success",
+            "approximateInvokeCount": 2
+        },
+        "requestPayload": {
+            "Records": [
+                {
+                    "eventVersion": "2.1",
+                    "eventSource": "aws:s3",
+                    "awsRegion": "us-east-1",
+                    "eventTime": "2020-10-09T11:11:21.910Z",
+                    "eventName": "ObjectCreated:Put",
+                    "userIdentity": {
+                        "principalId": "AZVO6PZ9OFROG"
+                    },
+                    "requestParameters": {
+                        "sourceIPAddress": "187.67.58.53"
+                    },
+                    "responseElements": {
+                        "x-amz-request-id": "CBA0B8E225441585",
+                        "x-amz-id-2": "Y+7rPd9Gw0YYq52QnNQN8EnC20bdv+1bdtL41MYPw7+qoyYuscREOabsfzUJgBVmUJ9tocJ2ZKHQyoD/ZyHzQY/65e8Eh4Bz1hqPLuvwlGg="
+                    },
+                    "s3": {
+                        "s3SchemaVersion": "1.0",
+                        "configurationId": "acb509ee-f8ca-4ca8-b751-3e7a6da4f13b",
+                        "bucket": {
+                            "name": "s3flutteruploadtest",
+                            "ownerIdentity": {
+                                "principalId": "AZVO6PZ9OFROG"
+                            },
+                            "arn": "arn:aws:s3:::s3flutteruploadtest"
+                        },
+                        "object": {
+                            "key": "uploads/test/moida-val-11.jpeg",
+                            "size": 147898,
+                            "eTag": "03abfed98e60feeb582dfc7db35260af",
+                            "sequencer": "005F80455EAC428C2A"
+                        }
+                    }
+                }
+            ]
+        },
+        "responseContext": {
+            "statusCode": 200,
+            "executedVersion": "$LATEST"
+        },
+        "responsePayload": {
+            "CustomLabels": [
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.30340999364852905,
+                            "Top": 0.24854999780654907,
+                            "Left": 0.1737699955701828,
+                            "Height": 0.2793000042438507
+                        }
+                    },
+                    "Confidence": 43.9900016784668,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.29368001222610474,
+                            "Top": 0.3614499866962433,
+                            "Left": 0.10565000027418137,
+                            "Height": 0.2896200120449066
+                        }
+                    },
+                    "Confidence": 30.788999557495117,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.07452999800443649,
+                            "Top": 0.35822999477386475,
+                            "Left": 0.26892998814582825,
+                            "Height": 0.1145000010728836
+                        }
+                    },
+                    "Confidence": 4.6529998779296875,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.14972999691963196,
+                            "Top": 0.4477100074291229,
+                            "Left": 0.14699000120162964,
+                            "Height": 0.09853000193834305
+                        }
+                    },
+                    "Confidence": 3.7069997787475586,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.8077899813652039,
+                            "Top": 0.18278999626636505,
+                            "Left": 0.13350999355316162,
+                            "Height": 0.6727499961853027
+                        }
+                    },
+                    "Confidence": 2.6389999389648438,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.13323000073432922,
+                            "Top": 0.182219997048378,
+                            "Left": 0.457830011844635,
+                            "Height": 0.07311999797821045
+                        }
+                    },
+                    "Confidence": 1.3930000066757202,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.30184000730514526,
+                            "Top": 0.8924199938774109,
+                            "Left": 0.0427200011909008,
+                            "Height": 0.07119999825954437
+                        }
+                    },
+                    "Confidence": 1.2740000486373901,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.14050999283790588,
+                            "Top": 0.4548400044441223,
+                            "Left": 0.28426000475883484,
+                            "Height": 0.10785000026226044
+                        }
+                    },
+                    "Confidence": 1.2070000171661377,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.05567000061273575,
+                            "Top": 0.029670000076293945,
+                            "Left": 0.049139998853206635,
+                            "Height": 0.19191999733448029
+                        }
+                    },
+                    "Confidence": 0.8240000605583191,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                },
+                {
+                    "Geometry": {
+                        "BoundingBox": {
+                            "Width": 0.9698200225830078,
+                            "Top": 0,
+                            "Left": 0.028929999098181725,
+                            "Height": 0.22398999333381653
+                        }
+                    },
+                    "Confidence": 0.6579999923706055,
+                    "Name": "Meat, beef, ground beef, ground, cooked"
+                }
+            ],
+            "ResponseMetadata": {
+                "RetryAttempts": 0,
+                "HTTPStatusCode": 200,
+                "RequestId": "95878a50-3574-4f66-8709-a2a097315e93",
+                "HTTPHeaders": {
+                    "date": "Fri, 09 Oct 2020 11:14:27 GMT",
+                    "x-amzn-requestid": "95878a50-3574-4f66-8709-a2a097315e93",
+                    "content-length": "2207",
+                    "content-type": "application/x-amz-json-1.1",
+                    "connection": "keep-alive"
+                }
+            }
+        }
+    }
+}
