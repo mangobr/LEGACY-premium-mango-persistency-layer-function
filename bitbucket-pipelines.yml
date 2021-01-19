@@ -14,7 +14,7 @@ pipelines:
           script:
             - pipe: atlassian/serverless-deploy:0.2.2
               variables:
-                # MANGODB_CONNECT: $MANGODB_CONNECT_PROD
+                MANGODB_CONNECT: $MANGODB_CONNECT_PROD
                 AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY
                 AWS_SECRET_ACCESS_KEY: $AWS_SECRET_KEY
                 EXTRA_ARGS: "--stage prod"
