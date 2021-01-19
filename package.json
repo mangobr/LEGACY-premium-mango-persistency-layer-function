@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "handler.js",
   "description": "A serverless function to make MangooDB premium queries",
-  "repository": "git@bitbucket.org:moraesjeremias/requesttriggered-function.git",
+  "repository": "git@bitbucket.org-moraesjeremias:moraesjeremias/mangoodb-function-premium.git",
   "author": "Jeremias Moraes",
   "license": "MIT",
   "scripts": {
