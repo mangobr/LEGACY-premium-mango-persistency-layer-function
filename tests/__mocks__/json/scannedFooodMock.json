@@ -1,0 +1,182 @@
+[{
+  "_id": "5fc173980bc62fe8ae6c7b00",
+  "userId": "test",
+  "isPremium": true,
+  "consolidatedScannedFood": [
+    {
+      "label": "Meat, beef, ground beef, ground, cooked",
+      "nutritionalFacts": {
+        "re": {
+          "qty": "Tr",
+          "unit": "mcg"
+        },
+        "rae": {
+          "qty": "Tr",
+          "unit": "mcg"
+        },
+        "attributes": {
+          "humidity": {
+            "qty": "61.62",
+            "unit": "percents"
+          },
+          "protein": {
+            "qty": "26.6866666666667",
+            "unit": "g"
+          },
+          "lipid": {
+            "qty": "10.9166666666667",
+            "unit": "g"
+          },
+          "cholesterol": {
+            "qty": "103.13",
+            "unit": "mg"
+          },
+          "fiber": {
+            "qty": "NA",
+            "unit": "g"
+          },
+          "ashes": {
+            "qty": "0.84",
+            "unit": "g"
+          },
+          "calcium": {
+            "qty": "4.02666666666667",
+            "unit": "mg"
+          },
+          "magnesium": {
+            "qty": "17.07",
+            "unit": "mg"
+          },
+          "phosphorus": {
+            "qty": "164.443333333333",
+            "unit": "mg"
+          },
+          "iron": {
+            "qty": "2.65333333333333",
+            "unit": "mg"
+          },
+          "sodium": {
+            "qty": "52.3566666666667",
+            "unit": "mg"
+          },
+          "potassium": {
+            "qty": "255.706666666667",
+            "unit": "mg"
+          },
+          "copper": {
+            "qty": "0.063333333333333",
+            "unit": "mg"
+          },
+          "zinc": {
+            "qty": "8.1",
+            "unit": "mg"
+          },
+          "retinol": {
+            "qty": "Tr",
+            "unit": "mcg"
+          },
+          "thiamine": {
+            "qty": "Tr",
+            "unit": "mg"
+          },
+          "riboflavin": {
+            "qty": "0.316666666666667",
+            "unit": "mg"
+          },
+          "pyridoxine": {
+            "qty": "Tr",
+            "unit": "mg"
+          },
+          "niacin": {
+            "qty": "1.76333333333333",
+            "unit": "mg"
+          },
+          "energy": {
+            "kcal": "212.4204",
+            "kj": "888.7669536"
+          },
+          "manganese": {
+            "qty": "0.013",
+            "unit": "mg"
+          },
+          "fatty_acids": {
+            "saturated": {
+              "qty": 4.8,
+              "unit": "g"
+            },
+            "monounsaturated": {
+              "qty": 4.6,
+              "unit": "g"
+            },
+            "polyunsaturated": {
+              "qty": 0.3,
+              "unit": "g"
+            },
+            "14:0": {
+              "qty": 0.27,
+              "unit": "g"
+            },
+            "16:0": {
+              "qty": 2.5,
+              "unit": "g"
+            },
+            "18:0": {
+              "qty": 1.83,
+              "unit": "g"
+            },
+            "20:0": {
+              "qty": 0.01,
+              "unit": "g"
+            },
+            "22:0": {
+              "qty": 0.01,
+              "unit": "g"
+            },
+            "16:1": {
+              "qty": 0.33,
+              "unit": "g"
+            },
+            "18:1": {
+              "qty": 4.17,
+              "unit": "g"
+            },
+            "20:1": {
+              "qty": 0.03,
+              "unit": "g"
+            },
+            "18:2 n-6": {
+              "qty": 0.22,
+              "unit": "g"
+            },
+            "18:3 n-3": {
+              "qty": 0.02,
+              "unit": "g"
+            },
+            "20:4": {
+              "qty": 0.02,
+              "unit": "g"
+            },
+            "18:1t": {
+              "qty": 0.22,
+              "unit": "g"
+            },
+            "18:2t": {
+              "qty": 0.02,
+              "unit": "g"
+            }
+          }
+        },
+        "_id": "5f899240fb559b6f9047c611",
+        "id": 326,
+        "description": "Meat, beef, ground beef, ground, cooked",
+        "base_qty": 100,
+        "base_unit": "g",
+        "category_id": 6,
+        "searchDescription": "Carne, bovina, acém, moído, cozido"
+      }
+    }
+  ],
+  "createDate": "2020-10-09T11:14:29.146Z",
+  "updateDate": null,
+  "s3URL": "https://s3.amazonaws.com/s3flutteruploadtest/uploads/test/moida-val-11.jpeg"
+}]
